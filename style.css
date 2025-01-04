@@ -88,6 +88,40 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+.dark-mode {
+    background-color: #222; 
+    color: white;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111; 
+    color: white; }
+
+.dark-mode p, 
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode ul, 
+.dark-mode li, 
+.dark-mode a {
+    color: white; 
+}
+
+.dark-mode a:hover {
+    color: #ddd; 
+}
+.scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #0066cc;
+    z-index: 1000;
+    transition: width 0.2s ease-out;
+}
+
+
+
 
 
 
